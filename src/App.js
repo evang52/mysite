@@ -14,7 +14,7 @@ function App() {
        <BrowserRouter basename={process.env.PUBLIC_URL}>
        <Navbar />
        <Routes>
-       <Route path='/'  exact element= {<Home/>}></Route>
+       <Route path='/mysite/'  exact element= {<Home/>}></Route>
        </Routes>
         
        </BrowserRouter>
