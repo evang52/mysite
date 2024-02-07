@@ -12,14 +12,11 @@ function App() {
     <div className="App">
       <header className="App-header">
        <>
-       
-       <Navbar />
+       <Navbar/>
        <Routes>
        <Route path='/'  exact element= {<Home/>}></Route>
        <Route path='/products'  exact element= {<Products/>}></Route>
        </Routes>
-        
-      
        </>
         
       </header>

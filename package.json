@@ -2,7 +2,7 @@
   "name": "reactsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://evang52.github.io/mysite",
+  "homepage": "http://evang52.github.io/mysite/#",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.17.0",
