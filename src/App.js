@@ -1,6 +1,6 @@
 import Navbar from '../../reactsite/src/components/Navbar';
 import Home from '../../reactsite/src/components/Pages/home';
-import Products from './components/Pages/products';
+import Blog from './components/Pages/blog';
 import { Routes , Route } from 
 'react-router-dom';
 import './App.css';
@@ -15,7 +15,7 @@ function App() {
        <Navbar/>
        <Routes>
        <Route path='/'  exact element= {<Home/>}></Route>
-       <Route path='/products'  exact element= {<Products/>}></Route>
+       <Route path='/blog'  exact element= {<Blog/>}></Route>
        </Routes>
        </>
         
