@@ -34,7 +34,7 @@ function Navbar() {
                 <div className='menu-icon'
                     onClick={handleClick}>
                     <i className={
-                        click ? 'fas fa-times' : 'fas fa-bars'
+                        click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
                     }/>
                 </div>
                 <ul className={
