@@ -4,27 +4,27 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>The trips I've been on, and what I've learned from them!</h1>
+            <h1>Featured Writing</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <div className='cards__items'>
                         <CardItem
-                         src="images/img-9.jpg"
-                         text="My first big solo trip to France"
-                         label="Adventure"
-                         path='/services'
+                         src="images/hands-1.jpg"
+                         text="3 Ways to Foster Comfortable, Safe Conflict Resolution with Your Partner"
+                         label="Relationship Wisdom"
+                         path='https://typeshare.co/egrimes52/posts/3-ways-to-foster-comfortable-safe-conflict-resolution-with-your-partner-d48jo'
                          />
                         <CardItem
-                         src="images/img-2.jpg"
-                         text="My NOLS Backpacking experience- Leadership Trial by Fire"
+                         src="images/NOLS-1.jpg"
+                         text="Stumbling into Inner Peace In the Wyoming Backcountry"
                          label="Grit"
                          path='/services'
                          />
                          <CardItem
-                         src="images/img-3.jpg"
-                         text="Being in a Local Metal band"
-                         label="Hobbies"
-                         path='/services'
+                         src="images/cold-1.jpg"
+                         text="A Love letter to Cold"
+                         label="Discipline Writing"
+                         path='https://typeshare.co/egrimes52/posts/a-love-letter-to-cold'
                          /> 
                     </div>
                 </div>

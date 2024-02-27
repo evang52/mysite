@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars,faXmark }from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 import Button from './Button';
 
-const bars = <FontAwesomeIcon icon="fa-solid fa-xmark" />
-const times = <FontAwesomeIcon icon="fa-solid fa-bars"/>
+const bars = <FontAwesomeIcon icon={faBars} />
+const xmark = <FontAwesomeIcon icon={faXmark}/>
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -32,12 +33,12 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    Evan's Website
+                    Evan
                     <i className='fab fa-typo3'/>
                 </Link>
                 <div className='menu-icon'
                     onClick={handleClick}>
-                    <FontAwesomeIcon icon={
+                    <FontAwesomeIcon className='fa-bars' icon={
                         click ? xmark : bars
                      }/>
                 </div>

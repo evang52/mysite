@@ -45,18 +45,20 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Associated Artists</h2>
+            <Link to='https://linktr.ee/spreadloves'>Spreadloves</Link>
+            <Link to='https://open.spotify.com/artist/5w5BW6R0zkT7TjUX4ykABO?si=ARFJbJU0QO6W0WDzPiwypw'>Hailey Brown</Link>
+            <Link to='https://open.spotify.com/album/72PfNnH38vI1flvn2LJiFr?si=s0n_gfW0SPWPk02NKvQixA'>Rushay</Link>
+            {/* <Link to='/'>Agency</Link>
+            <Link to='/'>Influencer</Link> */}
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            {/* <Link to='/'>Instagram</Link>
+            <Link to='/'>Facebook</Link> */}
+            <Link to='https://www.linkedin.com/in/evandgrimes/'>Linkedn</Link>
+            <Link to='https://www.quora.com/profile/Evan-Grimes-15'>Quora</Link>
+            <Link to='https://twitter.com/heavystonelover'>Twitter</Link>
           </div>
         </div>
       </div>
@@ -64,11 +66,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              EG
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>Evan Grimes © 2024</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
