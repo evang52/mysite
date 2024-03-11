@@ -7,10 +7,12 @@ h3, h4{
 }
 .container{
     display:flex;
+    margin: .5em;
+    padding: 10%;
 }
 .column-1 {
     flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
-    flex-basis: 70%; /* sets initial width to 70% */
+    flex-basis: 50%; /* sets initial width to 70% */
 }
   @media only screen and (max-width: 900px) {
     .container {
@@ -19,6 +21,6 @@ h3, h4{
     }
   
     .box {
-      margin: 0 0 1rem;
+      margin: .5 .5 .5rem;
     }
   }
