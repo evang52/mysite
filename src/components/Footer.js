@@ -56,7 +56,7 @@ function Footer() {
             <h2>Social Media</h2>
             {/* <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link> */}
-            <Link to='https://www.linkedin.com/in/evandgrimes/'>Linkedn</Link>
+            <Link to='https://www.linkedin.com/in/evandgrimes/'>Linkedin</Link>
             <Link to='https://www.quora.com/profile/Evan-Grimes-15'>Quora</Link>
             <Link to='https://twitter.com/heavystonelover'>Twitter</Link>
           </div>

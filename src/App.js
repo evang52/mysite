@@ -1,6 +1,7 @@
 import Navbar from '../../reactsite/src/components/Navbar';
 import Home from '../../reactsite/src/components/Pages/home';
-import Blog from './components/Pages/blog';
+import Writing from './components/Pages/writing';
+import Professional_Career from './components/Pages/professional-career';
 import { Routes , Route } from 
 'react-router-dom';
 import './App.css';
@@ -13,7 +14,8 @@ function App() {
        <Navbar/>
        <Routes>
        <Route path='/'  exact element= {<Home/>}></Route>
-       <Route path='/blog'  exact element= {<Blog/>}></Route>
+       <Route path='/writing'  exact element= {<Writing/>}></Route>
+       <Route path='/professional-career'  exact element= {<Professional_Career/>}></Route>
        </Routes>
        </>
         

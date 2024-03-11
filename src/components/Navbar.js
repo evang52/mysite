@@ -52,21 +52,27 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/services' className='nav-links'
+                        <Link to='/#' className='nav-links'
                             onClick={closeMobileMenu}>
-                            Services
+                            Photography Portfolio
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/blog' className='nav-links'
+                        <Link to='/professional-career' className='nav-links'
                             onClick={closeMobileMenu}>
-                            Blog
+                            Software Engineering
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/writing' className='nav-links'
+                            onClick={closeMobileMenu}>
+                            Writing
                         </Link>
                     </li>
 
                 </ul>
                 {
-                button && <Button buttonStyle='btn--outline'>Sign Up</Button>
+                button && <Button buttonStyle='btn--outline'>Contact</Button>
             } </div>
             <div></div>
         </nav>

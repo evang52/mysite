@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../App.css'
 
-function Blog() {
+function Writing() {
     return ( <div className='Products'>
-        <h1 className='products'>Blog</h1>
+        <h1 className='products'>Writing</h1>
             </div>
             )
 }
 
-export default Blog;
+export default Writing;
