@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -24,10 +24,10 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
@@ -42,7 +42,7 @@ function Footer() {
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
-        </div>
+        </div> */}
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Associated Artists</h2>

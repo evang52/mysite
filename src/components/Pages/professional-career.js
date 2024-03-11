@@ -4,7 +4,8 @@ import '../../App.css'
 import './professional-career.css';
 
 function Professional_Career() {
-    return ( <div className='Professional_Career container'>
+    return ( <div className='Professional_Career'>
+    <div className='container'>
         <div className='column-1 box' id='value-statement'>
         <h1>Professional Career</h1>
         <h3> My Work Philosophy</h3>
@@ -23,6 +24,11 @@ function Professional_Career() {
         </div>
         <div className='column-2 box'>
             <img id='sunrise-profile' src="images/sunrise_side.jpg" alt='sunrise-side.jpg'></img>
+            </div>
+        <div id='skills'>
+
+            
+        </div>
         </div>
 
         <Link to="/"></Link>

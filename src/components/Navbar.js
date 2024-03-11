@@ -63,12 +63,12 @@ function Navbar() {
                             Software Engineering
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='/writing' className='nav-links'
                             onClick={closeMobileMenu}>
                             Writing
                         </Link>
-                    </li>
+                    </li> */}
 
                 </ul>
                 {
