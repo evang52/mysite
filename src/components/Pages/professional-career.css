@@ -11,12 +11,16 @@ h3, h4{
     padding: 10%;
 }
 #sunrise-profile {
+
  max-width: 60vw;
  max-height: 90vh;
 }
 .column-1 {
     flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
     flex-basis: 50%; /* sets initial width to 70% */
+}
+.column-2{
+  justify-content: center;
 }
   @media only screen and (max-width: 900px) {
     .container {
