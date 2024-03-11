@@ -11,8 +11,8 @@ h3, h4{
     padding: 10%;
 }
 #sunrise-profile {
- max-width: 30%;
- max-height: 50%;
+ max-width: 40vw;
+ max-height: 60vh;
 }
 .column-1 {
     flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
