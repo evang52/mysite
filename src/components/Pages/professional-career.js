@@ -22,7 +22,7 @@ function Professional_Career() {
         </ul>
         </div>
         <div className='column-2 box'>
-            <img src="images/sunrise_side.jpg" alt='sunrise-side.jpg'></img>
+            <img id='sunrise-profile' src="images/sunrise_side.jpg" alt='sunrise-side.jpg'></img>
         </div>
 
         <Link to="/"></Link>
