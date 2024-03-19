@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Footer from '../Footer';
 import '../../App.css'
 import './professional-career.css';
 
@@ -31,9 +32,9 @@ function Professional_Career() {
             
         </div>
         </div>
-
         <Link to="/"></Link>
-            </div>
+            </div> 
+            
             )
 }
 

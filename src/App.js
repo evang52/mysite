@@ -1,4 +1,5 @@
 import Navbar from '../../reactsite/src/components/Navbar';
+import Footer from './components/Footer';
 import Home from '../../reactsite/src/components/Pages/home';
 import Writing from './components/Pages/writing';
 import Professional_Career from './components/Pages/professional-career';
@@ -17,6 +18,7 @@ function App() {
        <Route path='/writing'  exact element= {<Writing/>}></Route>
        <Route path='/professional-career'  exact element= {<Professional_Career/>}></Route>
        </Routes>
+       <Footer />
        </>
         
       </header>
