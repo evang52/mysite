@@ -29,7 +29,7 @@ function Professional_Career() {
 
         </div>
         <div className='column-2 box' id='skills'>
-            <h1>Professional Skills</h1>
+            {/* <h1>Professional Skills</h1> */}
 
 
         </div>
