@@ -25,7 +25,8 @@ function Professional_Career() {
         <div className='column-2 box'>
             <img id='sunrise-profile' src="images/sunrise_side.jpg" alt='sunrise-side.jpg'></img>
             </div>
-        <div id='skills'>
+        <div className='column-2 box' id='skills'>
+            <h1>Professional Skills</h1>
 
             
         </div>
